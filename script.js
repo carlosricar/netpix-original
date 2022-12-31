@@ -22,7 +22,7 @@ function getRandomInt2(min, max) {
 $( document ).ready(function() {
 	$("a").each(function(){
 	    if($(this).attr('href').indexOf("monetizze") >= 0 && email != "")
-	    $(this).attr('href', $(this).attr('href')+"?nome="+b64DecodeUnicode(name)+"&email="+b64DecodeUnicode(email));
+	    // $(this).attr('href', $(this).attr('href')+"?nome="+b64DecodeUnicode(name)+"&email="+b64DecodeUnicode(email));
 	});
 
   if(!localStorage.getItem('_bannershow_')){
