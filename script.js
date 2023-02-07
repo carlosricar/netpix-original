@@ -5,11 +5,11 @@ function b64DecodeUnicode(str) {
     }).join(''));
 }
 
-function getURLParameter(name) {
-      return decodeURIComponent(
-          (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || ''
-      );
-  }
+//function getURLParameter(name) {
+      //return decodeURIComponent(
+         // (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || ''
+     // );
+ // }
 
 var email = getURLParameter('email');
 var name = getURLParameter('name');
