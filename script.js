@@ -27,7 +27,7 @@ $( document ).ready(function() {
 
   if(!localStorage.getItem('_bannershow_')){
       localStorage.setItem('_bannershow_', true);
-      setTimeout(function(){ $('#lp-addtocart').fadeIn(); }, 150000); //tempo para mostrar o botao de comprar é de 2,5 minutos convertidos de: seg x min
+      setTimeout(function(){ $('#lp-addtocart').fadeIn(); }, 914400); //tempo para mostrar o botao de comprar é de 2,5 minutos convertidos de: seg x min
 
     }else {
        $('#lp-addtocart').fadeIn();
@@ -54,7 +54,7 @@ $( document ).ready(function() {
   }, 1111);
 
 
-	//setTimeout(function(){ $("#float-btn").show(); }, 150000);
+	//setTimeout(function(){ $("#float-btn").show(); }, 914400);
 });
 
 function addLoadEvent(func) {
