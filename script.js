@@ -11,8 +11,8 @@ function b64DecodeUnicode(str) {
      // );
  // }
 
-var email = getURLParameter('email');
-var name = getURLParameter('name');
+//var email = getURLParameter('email');
+//var name = getURLParameter('name');
 
 function getRandomInt2(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
